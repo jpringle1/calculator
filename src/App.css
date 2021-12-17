@@ -1,0 +1,78 @@
+/* ///////////////////calculator/////////////////// */
+
+#calcContainer{
+  padding-top: 5vh;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#output2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 306px;
+  border: solid black 1px;
+  height: 75px;
+  font-size: 50px;
+}
+
+#operators {
+  display: flex;
+  justify-content: center;
+}
+
+.operator {
+  background-color: pink;
+  border: solid 1px black;
+  width: 75px;
+  height:75px;
+}
+
+.numPadItem{
+  background-color:rgb(184, 184, 184);
+  border: solid 1px black;
+  width: 75px;
+  height:75px;
+  padding:0;
+}
+
+
+#equals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 207, 255);
+  border: solid 1px black;
+  width: 75px;
+  font-size: 50px;
+}
+
+.text {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height:100%;
+  width:100%;
+  font-weight: normal;
+}
+
+
+.noGap{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
